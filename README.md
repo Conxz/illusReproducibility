@@ -3,14 +3,14 @@ An illustration of reproducibility
 
 ### Data and scripts for the main analyses
 Generally, reproducibility was calculated using a leave-one-out strategy, to avoid sample overlap between testing dataset and the meta-analysis. 
-* ./run_asy_meta_LeaveOneOut.R, for the confirmation analysis with a leave-one-out procedure
-* ./calc_IR_plot_LeaveOneOut.ipynb, for the confirmation analysis with a leave-one-out procedure
+* ./run_asy_meta_LeaveOneOut.R, for the main with a leave-one-out procedure
+* ./calc_IR_plot_LeaveOneOut.ipynb, for the mainanalysis with a leave-one-out procedure
 
-All data used in this project are added in this repo.
+All data used in this project are added in this repo now.
 * ./doc/dataset_info.csv, information of each dataset	
-* ./data, this folder includes all data files for the meta-analyses. The original data has been used in [Kong et al., 2018](https://doi.org/10.1073/pnas.1718418115), and is also available from the repo [neurohemi](https://github.com/Conxz/neurohemi).
-* ./doc/sum_asy_meta.csv, meta-analysis results with all datasets
-* ./meta, meta-analysis results with a leave-out-out strategy. (Ouputs of run_asy_meta_LeaveOneOut.R)
+* ./data, this folder includes all data files for the meta-analyses. The original datasets have been used in [Kong et al., 2018](https://doi.org/10.1073/pnas.1718418115), and are also available from the repo [neurohemi](https://github.com/Conxz/neurohemi).
+* ./doc/sum_asy_meta.csv, the meta-analysis results with all datasets, also from [Kong et al., 2018](https://doi.org/10.1073/pnas.1718418115)
+* ./meta, meta-analysis results with a leave-out-out strategy. (generated with run_asy_meta_LeaveOneOut.R)
 * ./tmp
 
 Data and R script for plotting brain maps used in the manuscript. 
