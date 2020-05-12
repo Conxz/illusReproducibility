@@ -3,11 +3,10 @@ library(metafor)
 options(stringsAsFactors = FALSE)
 par(mar=c(4,4,1,2))
 
-setwd('G:/OwnCloud/DataShare/IntrinsicReproducibility/Paper/PNAS/R1/additional_analysis/')
-data_dir = 'G:/OwnCloud/DataShare/IntrinsicReproducibility/out/'
-dataset_info_file = 'P:/workspaces/lg-ENIGMA-Lateralization/CorticalAsymmetry/IntrinsicReproducibility/doc/dataset_info.csv'
+data_dir = './data/'
+dataset_info_file = './doc/dataset_info.csv'
 
-out_dir = './out/'
+out_dir = './tmp/'
 sumout_dir = './meta/'
 
 
