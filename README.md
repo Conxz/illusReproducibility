@@ -4,8 +4,8 @@ An illustration of reproducibility
 [Preprint](https://www.biorxiv.org/content/10.1101/866301v1)
 ### Data and scripts for the main analyses
 Generally, reproducibility was calculated using a leave-one-out strategy, to avoid sample overlap between testing dataset and the meta-analysis.
-* ./run_asy_meta_LeaveOneOut.R, for the main with a leave-one-out procedure
-* ./calc_IR_plot_LeaveOneOut.ipynb, for the mainanalysis with a leave-one-out procedure
+* ./run_asy_meta_LeaveOneOut.R, for the main meta-analyses with a leave-one-out procedure
+* ./calc_IR_plot_LeaveOneOut.ipynb, for the main analysis with a leave-one-out procedure
 
 All data used in this project are added in this repo now.
 * ./doc/dataset_info.csv, information of each dataset	
